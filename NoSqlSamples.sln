@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F62198F7-64EE-4B94-9BB2-E74813C9CA7F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1164D951-B3A6-4EE7-BF34-D351EE391195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis", "src\Redis\Redis.csproj", "{368639F4-96C0-4A24-A981-F8D3155AC53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB", "src\MongoDB\MongoDB.csproj", "{B192163F-8693-4726-8DF6-6A05952762F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassandra", "src\Cassandra\Cassandra.csproj", "{35DA9773-0C39-4D7F-B31E-7304C14CD40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4j", "src\Neo4j\Neo4j.csproj", "{03459CB7-6B06-4960-9E15-F52B390417EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1164D951-B3A6-4EE7-BF34-D351EE391195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1164D951-B3A6-4EE7-BF34-D351EE391195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1164D951-B3A6-4EE7-BF34-D351EE391195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1164D951-B3A6-4EE7-BF34-D351EE391195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368639F4-96C0-4A24-A981-F8D3155AC53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368639F4-96C0-4A24-A981-F8D3155AC53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368639F4-96C0-4A24-A981-F8D3155AC53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368639F4-96C0-4A24-A981-F8D3155AC53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B192163F-8693-4726-8DF6-6A05952762F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B192163F-8693-4726-8DF6-6A05952762F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B192163F-8693-4726-8DF6-6A05952762F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B192163F-8693-4726-8DF6-6A05952762F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DA9773-0C39-4D7F-B31E-7304C14CD40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DA9773-0C39-4D7F-B31E-7304C14CD40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DA9773-0C39-4D7F-B31E-7304C14CD40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DA9773-0C39-4D7F-B31E-7304C14CD40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03459CB7-6B06-4960-9E15-F52B390417EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03459CB7-6B06-4960-9E15-F52B390417EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03459CB7-6B06-4960-9E15-F52B390417EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03459CB7-6B06-4960-9E15-F52B390417EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{368639F4-96C0-4A24-A981-F8D3155AC53D} = {F62198F7-64EE-4B94-9BB2-E74813C9CA7F}
+		{B192163F-8693-4726-8DF6-6A05952762F3} = {F62198F7-64EE-4B94-9BB2-E74813C9CA7F}
+		{35DA9773-0C39-4D7F-B31E-7304C14CD40D} = {F62198F7-64EE-4B94-9BB2-E74813C9CA7F}
+		{03459CB7-6B06-4960-9E15-F52B390417EB} = {F62198F7-64EE-4B94-9BB2-E74813C9CA7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF776266-24BE-45F5-A666-2CD7B75560B0}
+	EndGlobalSection
+EndGlobal

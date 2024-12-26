@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NoSqlSamples": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
