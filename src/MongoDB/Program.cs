@@ -3,9 +3,9 @@
 using MongoDB.Driver;
 using MongoDB.Models;
 
-var dbClient = new MongoClient("mongodb://localhost:27017");
+var dbClient = new MongoClient("mongodb://admin:password@localhost:27017");
 
-IMongoDatabase db = dbClient.GetDatabase("OTUS2");
+IMongoDatabase db = dbClient.GetDatabase("otus");
 IMongoCollection<User> users = db.GetCollection<User>("Users");
 
 users.InsertOne(new User

@@ -25,8 +25,8 @@ var keys = db.HashKeys("hashset");
 db.HashDelete("hashset", "entry1");
 var data = db.HashGetAll("hashset");
 
-/*
-foreach(var y in data)  Console.WriteLine(y.Name + " " + y.Value);
+/**/
+foreach(var y1 in data)  Console.WriteLine(y1.Name + " " + y1.Value);
 
 db.SetAdd(new RedisKey("set_key"), new RedisValue("value1"));
 db.SetAdd("set_key", "value1");
@@ -40,22 +40,22 @@ var listdata = db.ListRange("list");
 
 var item = db.ListRightPop("list");
 
-foreach (var y in listdata)
+foreach (var y2 in listdata)
 {
     Console.WriteLine(y);
 }
-*/
+/**/
 
-/*
+/**/
 var transaction = db.CreateTransaction();
 transaction.HashSetAsync("hashset", new[] { new HashEntry("entry1", "4555"), new HashEntry("entry2", "4555") });
 transaction.HashSetAsync("hashset", "entry3", "777");
 transaction.HashDeleteAsync("hashset", "entry1");
 transaction.Execute();
-var data = db.HashGetAll("hashset");
+var data1 = db.HashGetAll("hashset");
 
-foreach (var y in data) Console.WriteLine(y.Name + " " + y.Value);
-*/
+foreach (var y3 in data) Console.WriteLine(y3.Name + " " + y3.Value);
+/**/
 
 //VAR TRAN
 //   db.TRA

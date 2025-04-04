@@ -14,6 +14,7 @@ using System.Diagnostics.Metrics;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 
+/*
 
 // Connect to cassandra cluster  (Cassandra API on Azure Cosmos DB supports only TLSv1.2)
 // var options = new SSLOptions(SslProtocols.Tls12, true, ValidateServerCertificate);
@@ -75,7 +76,6 @@ static bool ValidateServerCertificate(
 }
 
 */
-
 
 class Program
 {
